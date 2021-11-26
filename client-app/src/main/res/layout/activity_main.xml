@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="wrap_content"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/label"
+		android:layout_width="409dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="fill_horizontal"
+		android:gravity="center"
+		android:text="@string/connecting"
+		android:textSize="18sp"
+		tools:context=".MainActivity" />
+
+	<TextView
+		android:id="@+id/label1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="LOG"
+		android:textSize="20sp"
+		tools:context=".MainActivity" />
+
+	<EditText
+		android:id="@+id/editTextTextPersonName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"
+		android:ems="10"
+		android:hint="Some info..."
+		android:inputType="textPersonName" />
+
+	<Button
+		android:id="@+id/button"
+		style="@style/Widget.AppCompat.Button.Colored"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="50dp"
+		android:background="#2196F3"
+		android:text="Debug" />
+
+	<Button
+		android:id="@+id/button2"
+		style="@style/Widget.AppCompat.Button.Colored"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:background="#FF9800"
+		android:text="Warning" />
+
+	<Button
+		android:id="@+id/button3"
+		style="@style/Widget.AppCompat.Button.Colored"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:background="#F44336"
+		android:text="Critical" />
+</LinearLayout>
